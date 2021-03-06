@@ -1,0 +1,152 @@
+[{
+	"name": "CHDB001",
+	"last_ip_address": "172.18.151.57",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "HMBBA03487-5A533637",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	}]
+},
+{
+	"name": "CHDB002",
+	"last_ip_address": "172.18.152.71",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "HMBBA03488-5A533637",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	},
+  {
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "HMBBA03265-5A533637",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	}]
+},
+{
+	"name": "CHDB003",
+	"last_ip_address": "172.18.161.68",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "H9XB400153-4D593234",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	}]
+},
+{
+	"name": "CHDB004",
+	"last_ip_address": "172.18.162.64",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "HMCS315309-4D593139",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "19.0",
+		"monitor_max_horizontal": "1280",
+		"monitor_max_vertical": "1024"
+	}]
+},
+{
+	"name": "CHDB005",
+	"last_ip_address": "172.18.151.52",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "HVFY904342-48413139",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "19.0",
+		"monitor_max_horizontal": "1280",
+		"monitor_max_vertical": "1024"
+	},
+  {
+		"monitor_name": "SMS24A450",
+		"monitor_serial_number": "H9MBB00001-30313138",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	}]
+},
+{
+	"name": "CHDB006",
+	"last_ip_address": "172.18.159.82",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "HMAQ225635-4D593139",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "19.0",
+		"monitor_max_horizontal": "1280",
+		"monitor_max_vertical": "1024"
+	},
+  {
+		"monitor_name": "SMS24A450",
+		"monitor_serial_number": "H9MBB00007-30313138",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	}]
+},
+{
+	"name": "CHDB007",
+	"last_ip_address": "172.18.151.57",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "HSHY118159-4D4A3139",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "19.0",
+		"monitor_max_horizontal": "1280",
+		"monitor_max_vertical": "1024"
+	},
+  {
+		"monitor_name": "SMS24A450",
+		"monitor_serial_number": "H9MBB00013-30313138",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	}]
+},
+{
+	"name": "CHDB008",
+	"last_ip_address": "172.18.4.60",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "HMCS130387-4D593139",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "19.0",
+		"monitor_max_horizontal": "1280",
+		"monitor_max_vertical": "1024"
+	}]
+},
+{
+	"name": "CHDB009",
+	"last_ip_address": "172.18.157.60",
+	"monitors": [{
+		"monitor_name": "SyncMaster",
+		"monitor_serial_number": "H9XB400165-4D593234",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	}]
+},
+{
+	"name": "CHDB010",
+	"last_ip_address": "172.18.160.72",
+	"monitors": [{
+		"monitor_name": "SMS24A450",
+		"monitor_serial_number": "H1AK500000-34533234",
+		"monitor_vendor": "SAM",
+		"monitor_diagonal": "24.0",
+		"monitor_max_horizontal": "1920",
+		"monitor_max_vertical": "1200"
+	}]
+}]
