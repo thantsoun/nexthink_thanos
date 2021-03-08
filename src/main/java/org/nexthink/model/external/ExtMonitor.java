@@ -1,10 +1,13 @@
-package org.nexthink.model.input;
+package org.nexthink.model.external;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Objects;
 
-public class Monitor {
+/**
+ * The model for monitor that comes from external sources (json, xml, etc)
+ */
+public class ExtMonitor {
 
     @SerializedName("monitor_name")
     private String name;
@@ -20,10 +23,10 @@ public class Monitor {
     private String vertical;
 
     // Emtpy constructor needed to work with frameworks
-    public Monitor() {
+    public ExtMonitor() {
     }
     
-    public Monitor(String name, String serialNumber, String vendor, String diagonal, String horizontal, String vertical) {
+    public ExtMonitor(String name, String serialNumber, String vendor, String diagonal, String horizontal, String vertical) {
         this.name = name;
         this.serialNumber = serialNumber;
         this.vendor = vendor;
@@ -84,8 +87,8 @@ public class Monitor {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Monitor monitor = (Monitor) o;
-        return Objects.equals(name, monitor.name) && Objects.equals(serialNumber, monitor.serialNumber) && Objects.equals(vendor, monitor.vendor) && Objects.equals(diagonal, monitor.diagonal) && Objects.equals(horizontal, monitor.horizontal) && Objects.equals(vertical, monitor.vertical);
+        ExtMonitor extMonitor = (ExtMonitor) o;
+        return Objects.equals(name, extMonitor.name) && Objects.equals(serialNumber, extMonitor.serialNumber) && Objects.equals(vendor, extMonitor.vendor) && Objects.equals(diagonal, extMonitor.diagonal) && Objects.equals(horizontal, extMonitor.horizontal) && Objects.equals(vertical, extMonitor.vertical);
     }
 
     @Override

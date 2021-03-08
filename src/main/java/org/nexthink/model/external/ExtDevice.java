@@ -1,26 +1,29 @@
-package org.nexthink.model.input;
+package org.nexthink.model.external;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class Device {
+/**
+ * The model of device that comes from external sources (json, xml, etc)
+ */
+public class ExtDevice {
     
     @SerializedName("name")
     private String name;
     @SerializedName("last_ip_address")
     private String lastIpAddress;
     @SerializedName("monitors")
-    private List<Monitor> monitors;
+    private List<ExtMonitor> extMonitors;
 
     // Emtpy constructor needed to work with frameworks
-    public Device() {
+    public ExtDevice() {
     }
     
-    public Device(String name, String lastIpAddress, List<Monitor> monitors) {
+    public ExtDevice(String name, String lastIpAddress, List<ExtMonitor> extMonitors) {
         this.name = name;
         this.lastIpAddress = lastIpAddress;
-        this.monitors = monitors;
+        this.extMonitors = extMonitors;
     }
 
     public String getName() {
@@ -39,16 +42,16 @@ public class Device {
         this.lastIpAddress = lastIpAddress;
     }
 
-    public List<Monitor> getMonitors() {
-        return monitors;
+    public List<ExtMonitor> getMonitors() {
+        return extMonitors;
     }
 
-    public void setMonitor(List<Monitor> monitors) {
-        this.monitors = monitors;
+    public void setMonitor(List<ExtMonitor> extMonitors) {
+        this.extMonitors = extMonitors;
     }
     
-    public void addMonitor(Monitor monitor) {
-        monitors.add(monitor);
+    public void addMonitor(ExtMonitor extMonitor) {
+        extMonitors.add(extMonitor);
     }
 
     @Override
@@ -56,7 +59,7 @@ public class Device {
         return "Device{" +
                 "name='" + name + '\'' +
                 ", lastIpAddress='" + lastIpAddress + '\'' +
-                ", monitors=" + monitors +
+                ", monitors=" + extMonitors +
                 '}';
     }
 }
