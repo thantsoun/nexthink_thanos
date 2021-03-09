@@ -1,5 +1,7 @@
 package org.nexthink.model.internal;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +29,8 @@ public class Device {
     @Column(name="monitor_id")
     @JoinTable(name = "device_monitor",
             joinColumns = { @JoinColumn(name = "device_id") },
-            inverseJoinColumns = { @JoinColumn(name = "monitor_id") }) 
+            inverseJoinColumns = { @JoinColumn(name = "monitor_id") })
+    @JsonManagedReference
     private List<Monitor> monitors = new ArrayList<>();
 
     // Emtpy constructor needed to work with frameworks

@@ -1,5 +1,7 @@
 package org.nexthink.model.internal;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +27,7 @@ public class Monitor {
      * The many to many relationship as per JPA
      */
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST, mappedBy = "monitors")
+    @JsonBackReference
     private List<Device> devices = new ArrayList<>();
 
     // Emtpy constructor needed to work with frameworks
